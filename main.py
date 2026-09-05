@@ -127,7 +127,7 @@ if mask is None:
 cap = ThreadedCamera(0)
 time.sleep(1.0)
 
-print("Kamera berhasil dibuka! Program berjalan (Mode Ringan). Tekan 'q' untuk keluar.")
+print("q")
 
 while True:
     ret, frame = cap.read()
